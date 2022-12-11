@@ -1,0 +1,13 @@
+// Variables
+@import './variables/media';
+@import './variables/color';
+@import './variables/fonts';
+
+// Global Style
+@import './global/resets.scss';
+@import './global/global.scss';
+// Global Style End
+
+// Pages Style
+@import './styles.scss';
+// Pages Style End
