@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <span class="header__logo">FOODMOOD</span>
+                <nav class="header__nav">
+                    <label class="header__nav-label" for="gam">
+                        <div class="header__nav-icon">
+                            <img src="../img/hamburger.png" alt="gam">
+                        </div>
+                    </label>
+                    <input id="gam" class="header__nav-input" type="checkbox">
+                    <ul class="header__nav-row">
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="#categories">OUR MENU</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#outlets">OUTLETS</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#delivery">DELIVERY</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#team">OUR TEAM</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#contacts">CONTACTS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
+            <div class="container">
+                <h3 class="header__subtitle">Only $15.00</h3>
+                <h1 class="header__title">AUTHENTIC ITALIAN PIZZA</h1>
+
+                <div class="header__flex-container">
+                    <img class="header__img" src="../img/Group 17514.png" alt="discount">
+                    <div class="header__box">
+                        <p class="header__text">On your first
+                            order, if you order
+                            online through
+                            our App!</p>
+                    </div>
+                </div>
+                <button class="header__button">ORDER ONLINE</button>
+            </div>
+
+        </header>
+
+        <main class="page">
+            <section class="categories" id="categories">
+                <div class="container categories__container">
+                    <h4 class="categories__subtitle">TOP FOODS</h4>
+                    <h2 class="categories__title">Our Categories</h2>
+
+                    <div class="categories__flex-container">
+                        <div class="categories__flex-box">
+                            <img class="categories__card-img" src="../img/pizza-menu-2.png" alt="pizza">
+                            <h3 class="categories__card-title">Pizza</h3>
+                            <p class="categories__card-text">20 Restaurants Foods</p>
+                        </div>
+
+                        <div class="categories__flex-box">
+                            <img class="categories__card-img" src="../img/noodles-2.png" alt="pizza">
+                            <h3 class="categories__card-title">Pasta</h3>
+                            <p class="categories__card-text">15 Restaurants Foods</p>
+                        </div>
+
+                        <div class="categories__flex-box">
+                            <img class="categories__card-img" src="../img/desert.png" alt="pizza">
+                            <h3 class="categories__card-title">Shakes</h3>
+                            <p class="categories__card-text">20 Restaurants Foods</p>
+                        </div>
+
+                        <div class="categories__flex-box">
+                            <img class="categories__card-img" src="../img/burger.png" alt="pizza">
+                            <h3 class="categories__card-title">Burger</h3>
+                            <p class="categories__card-text">25 Restaurants Foods</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="container benefits__container">
+                    <div class="benefits__flex-container">
+
+                        <div class="benefits__flex-box">
+                            <svg class="benefits__icon" width="115" height="115" viewBox="0 0 115 115" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="57.5" cy="57.5" r="57.5" fill="white" />
+                                <path
+                                    d="M70.0909 50.5H65.1818V44H42.2727C40.4645 44 39 45.4544 39 47.25V65.125H42.2727C42.2727 67.8144 44.4736 70 47.1818 70C49.89 70 52.0909 67.8144 52.0909 65.125H61.9091C61.9091 67.8144 64.11 70 66.8182 70C69.5264 70 71.7273 67.8144 71.7273 65.125H75V57L70.0909 50.5ZM47.1818 67.5625C45.8236 67.5625 44.7273 66.4738 44.7273 65.125C44.7273 63.7763 45.8236 62.6875 47.1818 62.6875C48.54 62.6875 49.6364 63.7763 49.6364 65.125C49.6364 66.4738 48.54 67.5625 47.1818 67.5625ZM69.2727 52.9375L72.4882 57H65.1818V52.9375H69.2727ZM66.8182 67.5625C65.46 67.5625 64.3636 66.4738 64.3636 65.125C64.3636 63.7763 65.46 62.6875 66.8182 62.6875C68.1764 62.6875 69.2727 63.7763 69.2727 65.125C69.2727 66.4738 68.1764 67.5625 66.8182 67.5625Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <h3 class="benefits__card-title">Free Shipping on
+                                First Order</h3>
+                            <p class="benefits__card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Labore, laborum earum.</p>
+
+                        </div>
+
+                        <div class="benefits__flex-box">
+                            <svg class="benefits__icon" width="115" height="115" viewBox="0 0 115 115" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="57.5" cy="57.5" r="57.5" fill="white" />
+                                <path
+                                    d="M74.9293 55.9538C75.6237 56.6482 76.0172 57.5895 76.0172 58.5694C76.0172 59.5493 75.6237 60.4906 74.9293 61.185C74.2349 61.8794 73.2936 62.2729 72.3138 62.2729H42.6859C41.7037 62.2729 40.7616 61.8794 40.0672 61.185C39.3728 60.4906 38.9824 59.5493 38.9824 58.5694C38.9824 57.5895 39.3728 56.6482 40.0672 55.9538C40.7616 55.2594 41.7037 54.8659 42.6859 54.8659H72.3138C73.2936 54.8659 74.2349 55.2594 74.9293 55.9538ZM74.4201 65.1045C74.6516 65.336 74.7827 65.6523 74.7827 65.9764V67.2109C74.7827 68.4531 74.2658 69.7802 73.3399 70.706C72.4141 71.6319 71.087 72.1488 69.8448 72.1488H45.1549C43.8456 72.1488 42.5895 71.6319 41.6636 70.706C40.7369 69.7802 40.2169 68.4531 40.2169 67.2109V65.9764C40.2169 65.6523 40.3473 65.336 40.5788 65.1045C40.8102 64.873 41.1243 64.7419 41.4514 64.7419H73.5483C73.8723 64.7419 74.1886 64.873 74.4201 65.1045ZM41.6358 52.15C41.2917 51.9803 40.9908 51.7411 40.7547 51.4402C40.5186 51.1393 40.355 50.7921 40.2748 50.4217C40.1945 50.0437 40.2015 49.6579 40.2933 49.2876C41.99 42.5997 49.0513 37.583 57.4998 37.583C65.9484 37.583 73.0082 42.5997 74.7056 49.2876C74.7982 49.6579 74.8059 50.0437 74.721 50.4217C74.6439 50.7921 74.4818 51.1393 74.2427 51.4402C73.9417 51.7411 73.7103 51.9803 73.3631 52.15C73.0236 52.3121 72.6455 52.3969 72.2598 52.3969H42.7376C42.3564 52.3969 41.9792 52.3121 41.6358 52.15ZM66.5039 44.1181C66.2725 44.3496 66.1413 44.6659 66.1413 44.99C66.1413 45.2369 66.2107 45.4761 66.3496 45.6767C66.4885 45.8773 66.6119 46.0393 66.9051 46.1319C67.1289 46.155 67.3758 46.2476 67.615 46.2013C67.8542 46.155 68.0779 46.0393 68.2476 45.8618C68.4251 45.6921 68.5408 45.4683 68.5871 45.2292C68.6334 44.99 68.5408 44.7431 68.5177 44.5193C68.4251 44.2261 68.2631 44.1027 68.0625 43.9638C67.8619 43.8249 67.6227 43.686 67.3758 43.686C67.0517 43.686 66.7354 43.8866 66.5039 44.1181ZM56.628 41.6484C56.3965 41.8798 56.2653 42.1938 56.2653 42.521C56.2653 42.7648 56.3348 43.0071 56.4737 43.2077C56.6125 43.4083 56.736 43.5703 57.0292 43.6629C57.2529 43.686 57.4998 43.7786 57.739 43.7323C57.9782 43.686 58.202 43.5703 58.3717 43.3928C58.5492 43.2231 58.6649 42.9994 58.7112 42.7617C58.7575 42.5225 58.6649 42.2741 58.6417 42.0488C58.5492 41.8227 58.3871 41.6298 58.1865 41.4948C57.9859 41.359 57.7467 41.2171 57.4998 41.2171C57.1758 41.2171 56.8594 41.4169 56.628 41.6484ZM46.752 44.1181C46.5206 44.3496 46.3894 44.6659 46.3894 44.99C46.3894 45.2369 46.4588 45.4761 46.5977 45.6767C46.7366 45.8773 46.86 46.0393 47.1532 46.1319C47.377 46.155 47.6239 46.2476 47.8631 46.2013C48.1022 46.155 48.326 46.0393 48.4957 45.8618C48.6732 45.6921 48.7889 45.4683 48.8352 45.2292C48.8815 44.99 48.7889 44.7431 48.7658 44.5193C48.6732 44.2261 48.5112 44.1027 48.3106 43.9638C48.11 43.8249 47.8708 43.686 47.6239 43.686C47.2998 43.686 46.9835 43.8866 46.752 44.1181Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <h3 class="benefits__card-title">Variety of
+                                Dishes</h3>
+                            <p class="benefits__card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Labore, laborum earum.</p>
+
+                        </div>
+
+                        <div class="benefits__flex-box">
+                            <svg class="benefits__icon" width="115" height="115" viewBox="0 0 115 115" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="57.5" cy="57.5" r="57.5" fill="white" />
+                                <path
+                                    d="M57.061 36.8701C45.9071 36.8701 36.8701 45.9071 36.8701 57.061C36.8701 68.2148 45.9071 77.2518 57.061 77.2518C68.2148 77.2518 77.2518 68.2148 77.2518 57.061C77.2518 45.9071 68.2148 36.8701 57.061 36.8701ZM64.591 62.3529L62.9627 64.3883C62.8558 64.5219 62.7237 64.6331 62.5739 64.7156C62.424 64.7982 62.2594 64.8504 62.0894 64.8693C61.9193 64.8882 61.7472 64.8734 61.5829 64.8258C61.4186 64.7782 61.2653 64.6987 61.1317 64.5918L55.6769 60.5439C55.2958 60.2387 54.9881 59.8518 54.7767 59.4117C54.5653 58.9716 54.4556 58.4895 54.4557 58.0013V45.3372C54.4557 44.9918 54.5929 44.6604 54.8372 44.4161C55.0815 44.1719 55.4128 44.0346 55.7583 44.0346H58.3636C58.7091 44.0346 59.0404 44.1719 59.2847 44.4161C59.529 44.6604 59.6662 44.9918 59.6662 45.3372V57.061L64.3883 60.5211C64.5219 60.628 64.6332 60.7602 64.7157 60.9102C64.7983 61.0601 64.8504 61.2249 64.8693 61.395C64.8881 61.5651 64.8732 61.7373 64.8255 61.9016C64.7777 62.066 64.698 62.2193 64.591 62.3529Z"
+                                    fill="currentColor" />
+                            </svg>
+                            <h3 class="benefits__card-title">Thirty Minutes
+                                Delivery</h3>
+                            <p class="benefits__card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Labore, laborum earum.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="outlets" id="outlets">
+                <div class="container outlets__container">
+                    <h4 class="outlets__subtitle">OUR OUTLETS</h4>
+                    <h2 class="outlets__title">Find an Outlet Near You</h2>
+
+                    <div class="outlets__flex-container">
+                        <div class="outlets__flex-box">
+                            <img class="outlets__img" src="../img/bar-1.jpg" alt="photo">
+                            <img class="outlets__icon" src="../img/pin.png" alt="icon">
+                            <p class="outlets__text">762 Fulton St San Francisco, California(CA), 94102</p>
+                        </div>
+
+                        <div class="outlets__flex-box">
+                            <img class="outlets__img" src="../img/bar-2.jpg" alt="photo">
+                            <img class="outlets__icon" src="../img/pin.png" alt="icon">
+                            <p class="outlets__text">66 Ceres St San Francisco, California(CA), 94124</p>
+                        </div>
+
+                        <div class="outlets__flex-box">
+                            <img class="outlets__img" src="../img/bar-3.jpg" alt="photo">
+                            <img class="outlets__icon" src="../img/pin.png" alt="icon">
+                            <p class="outlets__text">766 Sutter St San Francisco, California(CA), 94109</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="delivery" id="delivery">
+                <div class="container delivery__container">
+                    <div class="delivery__flex-container">
+                        <div class="delivery__flex-box">
+                            <h4 class="delivery__subtitle">PIZZA DELIVERY</h4>
+                            <h2 class="delivery__title">Get Started Today!</h2>
+                            <div class="delivery__line"></div>
+                            <h3 class="delivery__description">Everything you need to build an amazing food restaurant
+                                responsive website.</h3>
+                            <p class="delivery__text">Hendrerit in vulputate velit esse molestie consequat, vel illum
+                                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                                blandit praesent luptatum zzril delenit augue duis.</p>
+
+                            <div class="delivery__flex-box-card-container">
+                                <div class="delivery__flex-box-card">
+                                    <img class="delivery__card-icon" src="../img/money.png" alt="icon">
+                                    <h4 class="delivery__card-title">Food Order</h4>
+                                    <p class="delivery__card-text">Food is the necessity of life. It provides nutrition,
+                                        sustenance growth to human body.</p>
+                                </div>
+
+                                <div class="delivery__flex-box-card">
+                                    <img class="delivery__card-icon" src="../img/man.png" alt="icon">
+                                    <h4 class="delivery__card-title">Promote Restaurant</h4>
+                                    <p class="delivery__card-text">Food can be classified into cereals, pulses, nuts and
+                                        oilseeds, vegetable</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="delivery__flex-box">
+                            <img class="delivery__img" src="../img/customer.png" alt="customer">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team" id="team">
+                <div class="container team__container">
+                    <h4 class="team__subtitle">TEAM MEMBERS</h4>
+                    <h2 class="team__title">Meet Our Best Team</h2>
+                    <div class="team__line"></div>
+
+                    <div class="team__flex-container">
+                        <div class="team__flex-box">
+                            <img class="team__card-img" src="../img/cheef-1.jpg" alt="cheef">
+                            <h3 class="team__card-title">Angelina John</h3>
+                            <p class="team__card-text">Senior Chef</p>
+                        </div>
+
+                        <div class="team__flex-box">
+                            <img class="team__card-img" src="../img/cheef-2.jpg" alt="cheef">
+                            <h3 class="team__card-title">Alizeh Anderson</h3>
+                            <p class="team__card-text">Master Chef</p>
+                        </div>
+
+                        <div class="team__flex-box">
+                            <img class="team__card-img" src="../img/cheef-3.jpg" alt="cheef">
+                            <h3 class="team__card-title">Christina Chi</h3>
+                            <p class="team__card-text">Psychologist</p>
+                        </div>
+
+                        <div class="team__flex-box">
+                            <img class="team__card-img" src="../img/cheef-4.jpg" alt="cheef">
+                            <h3 class="team__card-title">Andre Smith</h3>
+                            <p class="team__card-text">Professor</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="app">
+                <div class="container app__container">
+                    <div class="app__flex-container">
+                        <div class="app__flex-box">
+                            <h2 class="app__title">Get 20% Discount</h2>
+                            <h3 class="app__description">Get flat 20% off on your first order though The Foodmood App!</h3>
+                            <div class="app__flex-box-card">
+                                <img class="app__icon-1" src="../img/google.png" alt="google play">
+                                <img class="app__icon-2" src="../img/apple.png" alt="app store">
+                            </div>
+                        </div>
+                            <img class="app__img" src="../img/mobile-image.png" alt="mobile app">
+
+                        
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="sponsors">
+                <div class="container sponsors__container">
+                    <div class="sponsors__flex-container">
+                        <img class="sponsors__logo" src="../img/sponsor-1.png" alt="logo">
+                        <img class="sponsors__logo" src="../img/sponsor-2.png" alt="logo">
+                        <img class="sponsors__logo" src="../img/sponsor-3.png" alt="logo">
+                        <img class="sponsors__logo" src="../img/sponsor-4.png" alt="logo">
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer" id="contacts">
+            <div class="container footer__container">
+                <div class="footer__flex-container">
+                    <div class="footer__flex-box">
+                        <h3 class="footer__subtitle footer__subtitle--yellow">FOODMOOD</h3>
+                        <p class="footer__text">Vivamus convallis fermen sollicitudin et, vitae elit in vel ultrices sed in urna ipsum ullamcorper auctor.</p>
+                        <div class="footer__flex-box-card">
+                            <svg class="footer__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.3027 8.05879C27.3654 8.52924 26.3487 8.86463 25.2738 9.04383C26.3464 8.33128 27.1436 7.24495 27.484 5.9777C26.4805 6.6388 25.3585 7.13699 24.1525 7.43412C23.1296 6.44172 21.7105 5.85781 20.1739 5.92995C17.2239 6.06845 14.9443 8.57259 15.0829 11.5231C15.1025 11.9413 15.1687 12.3466 15.2785 12.734C10.8279 12.7194 6.7912 10.7777 4.00446 7.66913C3.58162 8.47936 3.36147 9.40934 3.40748 10.3893C3.49448 12.2426 4.51426 13.8337 5.99274 14.7242C5.11609 14.7373 4.28074 14.5355 3.54149 14.1692C3.54201 14.1914 3.54308 14.2141 3.54414 14.2368C3.66564 16.8248 5.60858 18.8971 8.07583 19.2739C7.6333 19.4165 7.16435 19.5042 6.677 19.5271C6.33236 19.5433 5.9962 19.5257 5.66711 19.4781C6.44704 21.5684 8.49225 23.0209 10.8317 22.9539C9.07057 24.4728 6.80763 25.4351 4.30426 25.5526C3.87346 25.5728 3.44676 25.5674 3.02632 25.5374C5.4624 26.9429 8.31173 27.6948 11.3284 27.5532C21.1553 27.0918 26.1461 18.6994 25.8147 11.6396C25.8038 11.4081 25.7882 11.1773 25.7674 10.9484C26.7755 10.1478 27.6373 9.16383 28.3027 8.05879Z" fill="currentColor"/>
+                                </svg>
+
+                                <svg class="footer__icon" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.3943 11.9106H17.3489V9.25732C17.3489 8.2609 18.0093 8.02859 18.4744 8.02859C18.9385 8.02859 21.3292 8.02859 21.3292 8.02859V3.64816L17.3975 3.63281C13.033 3.63281 12.0397 6.89988 12.0397 8.99062V11.9106H9.51562V16.4243H12.0397C12.0397 22.2171 12.0397 29.1968 12.0397 29.1968H17.3489C17.3489 29.1968 17.3489 22.1483 17.3489 16.4243H20.9313L21.3943 11.9106Z" fill="currentColor"/>
+                                    </svg>
+
+                                    <svg class="footer__icon" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.9204 9.24316C11.2167 9.24316 8.14795 12.259 8.14795 16.0157C8.14795 19.7723 11.1638 22.7881 14.9204 22.7881C18.6771 22.7881 21.6929 19.7194 21.6929 16.0157C21.6929 12.3119 18.6241 9.24316 14.9204 9.24316ZM14.9204 20.3543C12.5395 20.3543 10.5818 18.3966 10.5818 16.0157C10.5818 13.6347 12.5395 11.677 14.9204 11.677C17.3014 11.677 19.2591 13.6347 19.2591 16.0157C19.2591 18.3966 17.3014 20.3543 14.9204 20.3543Z" fill="currentColor"/>
+                                        <path d="M21.9577 10.6188C22.8052 10.6188 23.4921 9.93186 23.4921 9.08444C23.4921 8.23702 22.8052 7.55005 21.9577 7.55005C21.1103 7.55005 20.4233 8.23702 20.4233 9.08444C20.4233 9.93186 21.1103 10.6188 21.9577 10.6188Z" fill="currentColor"/>
+                                        <path d="M25.9258 5.11609C24.5501 3.68752 22.5925 2.94678 20.3703 2.94678H9.47079C4.86761 2.94678 1.79883 6.01556 1.79883 10.6187V21.4653C1.79883 23.7404 2.53957 25.6981 4.02105 27.1267C5.44962 28.5023 7.35438 29.1902 9.5237 29.1902H20.3173C22.5925 29.1902 24.4972 28.4494 25.8729 27.1267C27.3015 25.751 28.0422 23.7933 28.0422 21.5182V10.6187C28.0422 8.39651 27.3015 6.49175 25.9258 5.11609ZM25.7142 21.5182C25.7142 23.1584 25.1322 24.4812 24.1798 25.3806C23.2274 26.2801 21.9046 26.7563 20.3173 26.7563H9.5237C7.93639 26.7563 6.61364 26.2801 5.66126 25.3806C4.70888 24.4283 4.23269 23.1055 4.23269 21.4653V10.6187C4.23269 9.03143 4.70888 7.70868 5.66126 6.7563C6.56073 5.85683 7.93639 5.38064 9.5237 5.38064H20.4232C22.0105 5.38064 23.3332 5.85683 24.2856 6.80921C25.1851 7.76159 25.7142 9.08434 25.7142 10.6187V21.5182Z" fill="currentColor"/>
+                                        </svg>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__flex-box">
+                        <h3 class="footer__subtitle">ABOUT US</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Our Story
+                                </a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Our Locations
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Current Deals
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Contact Us
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__flex-box">
+                        <h3 class="footer__subtitle">OUR MENU</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Pizza
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Pasta
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Dessert
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Take & Bake
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__flex-box">
+                        <h3 class="footer__subtitle">OUR LOCATION</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    The FOODMOOD Rome
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    The FOODMOOD Madrid
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    The FOODMOOD Paris
+                                </a>
+
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    The FOODMOOD Miami
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__flex-container-2">
+                    <span class="footer__author">Copyright © 2022 The Pizzeria</span>
+                    <span class="footer__author">Powered by The FOODMOOD</span>
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+
+
+    </div>
+
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>

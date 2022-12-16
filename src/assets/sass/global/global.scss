@@ -1,12 +1,13 @@
 body {
-    font-family: $sub-fonts;
-    font-weight: 400;
+    font-family: $main-fonts;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .container {
-    max-width: 1179px;
+   
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 120px 0;
 }
 
 .logo {
