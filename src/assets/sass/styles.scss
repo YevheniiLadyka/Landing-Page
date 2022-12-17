@@ -394,6 +394,11 @@
 
         &__img {
             max-width: 585px;
+
+            @media (min-width: $tablet) {
+                animation: rotate 5s infinite;
+            }
+
         }
 
         &__flex-box-card-container {
@@ -413,6 +418,20 @@
             font-weight: 400;
             font-size: 17px;
             line-height: 26px;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate3d(1, 1, 1, 45deg);
+            }
+
+            50% {
+                transform: rotate3d(1, 1, 1, 70deg);
+            }
+
+            100% {
+                transform: rotate3d(1, 1, 1, 45deg);
+            }
         }
     }
 
@@ -533,6 +552,7 @@
             @media (max-width: $tablet) {
                     padding-bottom: 28px;
                     flex-direction: column;
+                    gap: 0px;
             }
         }
 
@@ -608,7 +628,7 @@
         @media (min-width: $tablet) {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
-            border: 6px solid #FFCC00;
+            border: 6px dashed #FFCC00;
             border-radius: 20px;
         }
        
